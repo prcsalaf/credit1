@@ -1,0 +1,48 @@
+Hi  !!
+
+il faut install tous les outils suivant :
+
+//install npm
+ npm i
+
+// install composer
+  composer install
+
+// copier colle fichier .env
+  cp .env.example .env
+
+// genere le  token
+ php artisan key:generate
+
+// install microblink sdk d'outil scanne
+  npm install @microblink/blinkid-in-browser-sdk
+
+//* packege pdf-to-image    https://github.com/niklasravnsborg/laravel-pdf    https://laracasts.com/discuss/channels/laravel/how-to-convert-csvxlsxpngjpgjpegtxt-files-to-pdf?page=1
+  composer require spatie/pdf-to-image
+
+//* packege OCR googl cloud
+  npm i @google-cloud/documentai
+
+//* le package Guzzle dans Laravel, c'est un client PHP HTTP pour envoyer des requêtes HTTP.
+ composer require guzzlehttp/guzzle:~6.0
+
+ //* get parametr with  node js
+ npm i querystring
+
+
+<<<<<<< HEAD
+// cree database  ""db_credit"" manualment sur votre localhost  //http://localhost/phpmyadmin/
+=======
+// cree database  ""db_credite"" manualment sur votre localhost  //http://localhost/phpmyadmin/
+>>>>>>> d5732def0f6e3aee9d399bc77f29d99362990c6f
+
+//migration
+php artisan migrate
+
+
+
+// run server
+php artisan serve
+
+
+npm run dev
